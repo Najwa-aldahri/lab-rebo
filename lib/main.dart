@@ -15,7 +15,12 @@ class MainApp extends StatelessWidget {
           child:
            Column(
              children: [
-               Text('Hello for nouf world!'),
+               Column(
+            children: [
+              Text('Hello for nouf world!'),
+              Text('i m Rawan'),
+            ],
+          ),
                 Text("hello from najwa branch")
              ],
            ),
