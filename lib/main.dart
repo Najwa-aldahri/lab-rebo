@@ -12,7 +12,14 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text("hello from najwa branch")
+          child:
+           Column(
+             children: [
+               Text('Hello for nouf world!'),
+                Text("hello from najwa branch")
+             ],
+           ),
+      
         ),
       ),
     );
